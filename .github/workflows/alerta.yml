@@ -27,8 +27,5 @@ jobs:
       - name: Enviar notificacion
         run: |
           curl -X POST https://ntfy.sh/devops-itla \
-            -H "Title: Nuevo Push en main" \
-            -H "Priority: 4" \
-            -d "Nuevo push en main
-
-Repo: ${{ github.repository }} | Usuario: ${{ github.actor }} | Commit: https://github.com/${{ github.repository }}/commit/${{ github.sha }}"
+          -H "Title: Nuevo Push en Main" \
+          -d "Se ha realizado un push a la rama main en el repositorio ${{ github.repository }} por ${{ github.actor }}"
