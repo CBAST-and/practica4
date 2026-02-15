@@ -7,7 +7,7 @@ A simple Hello World program written in JavaScript.
 ### How to run
 
 ```bash
-node hello.js
+node index.js
 ```
 
 This will output: `Hello World`
