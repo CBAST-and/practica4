@@ -1,4 +1,4 @@
-# Practica #4
+# Practica 4
 
 ## Hello World JavaScript
 
